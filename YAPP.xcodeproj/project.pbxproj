@@ -15,7 +15,6 @@
 		34706C1523DB9448004B66F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34706C1323DB9448004B66F3 /* Main.storyboard */; };
 		34706C1723DB944A004B66F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34706C1623DB944A004B66F3 /* Assets.xcassets */; };
 		34706C1A23DB944A004B66F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34706C1823DB944A004B66F3 /* LaunchScreen.storyboard */; };
-		34ACBC6323E9F975007AD6C7 /* slurpycabin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34ACBC6223E9F974007AD6C7 /* slurpycabin.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		34706C1623DB944A004B66F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34706C1923DB944A004B66F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34706C1B23DB944A004B66F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34ACBC6223E9F974007AD6C7 /* slurpycabin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slurpycabin.jpg; path = ../../../../Downloads/slurpycabin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 				34706C1623DB944A004B66F3 /* Assets.xcassets */,
 				34706C1823DB944A004B66F3 /* LaunchScreen.storyboard */,
 				34706C1B23DB944A004B66F3 /* Info.plist */,
-				34ACBC6223E9F974007AD6C7 /* slurpycabin.jpg */,
 			);
 			path = YAPP;
 			sourceTree = "<group>";
@@ -142,7 +139,6 @@
 			files = (
 				34706C1A23DB944A004B66F3 /* LaunchScreen.storyboard in Resources */,
 				34706C1723DB944A004B66F3 /* Assets.xcassets in Resources */,
-				34ACBC6323E9F975007AD6C7 /* slurpycabin.jpg in Resources */,
 				34706C1523DB9448004B66F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
