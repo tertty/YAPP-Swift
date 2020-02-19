@@ -3,16 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34413F5023ED1A2400C26AF3 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 34413F4F23ED1A2400C26AF3 /* FeedKit */; };
+		34413F5323ED1FF800C26AF3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 34413F5223ED1FF800C26AF3 /* Alamofire */; };
 		34706C0E23DB9448004B66F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34706C0D23DB9448004B66F3 /* AppDelegate.swift */; };
 		34706C1023DB9448004B66F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34706C0F23DB9448004B66F3 /* SceneDelegate.swift */; };
 		34706C1223DB9448004B66F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34706C1123DB9448004B66F3 /* ViewController.swift */; };
 		34706C1523DB9448004B66F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34706C1323DB9448004B66F3 /* Main.storyboard */; };
 		34706C1723DB944A004B66F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34706C1623DB944A004B66F3 /* Assets.xcassets */; };
 		34706C1A23DB944A004B66F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34706C1823DB944A004B66F3 /* LaunchScreen.storyboard */; };
+		34ACBC6323E9F975007AD6C7 /* slurpycabin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34ACBC6223E9F974007AD6C7 /* slurpycabin.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,7 @@
 		34706C1623DB944A004B66F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34706C1923DB944A004B66F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34706C1B23DB944A004B66F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34ACBC6223E9F974007AD6C7 /* slurpycabin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slurpycabin.jpg; path = ../../../../Downloads/slurpycabin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34413F5023ED1A2400C26AF3 /* FeedKit in Frameworks */,
+				34413F5323ED1FF800C26AF3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 				34706C1623DB944A004B66F3 /* Assets.xcassets */,
 				34706C1823DB944A004B66F3 /* LaunchScreen.storyboard */,
 				34706C1B23DB944A004B66F3 /* Info.plist */,
+				34ACBC6223E9F974007AD6C7 /* slurpycabin.jpg */,
 			);
 			path = YAPP;
 			sourceTree = "<group>";
@@ -83,6 +90,10 @@
 			dependencies = (
 			);
 			name = YAPP;
+			packageProductDependencies = (
+				34413F4F23ED1A2400C26AF3 /* FeedKit */,
+				34413F5223ED1FF800C26AF3 /* Alamofire */,
+			);
 			productName = YAPP;
 			productReference = 34706C0A23DB9448004B66F3 /* YAPP.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,10 @@
 				Base,
 			);
 			mainGroup = 34706C0123DB9448004B66F3;
+			packageReferences = (
+				34413F4E23ED1A2400C26AF3 /* XCRemoteSwiftPackageReference "FeedKit" */,
+				34413F5123ED1FF800C26AF3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 34706C0B23DB9448004B66F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +142,7 @@
 			files = (
 				34706C1A23DB944A004B66F3 /* LaunchScreen.storyboard in Resources */,
 				34706C1723DB944A004B66F3 /* Assets.xcassets in Resources */,
+				34ACBC6323E9F975007AD6C7 /* slurpycabin.jpg in Resources */,
 				34706C1523DB9448004B66F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N93LLCXN23;
 				INFOPLIST_FILE = YAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N93LLCXN23;
 				INFOPLIST_FILE = YAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +356,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34413F4E23ED1A2400C26AF3 /* XCRemoteSwiftPackageReference "FeedKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nmdias/FeedKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		34413F5123ED1FF800C26AF3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34413F4F23ED1A2400C26AF3 /* FeedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34413F4E23ED1A2400C26AF3 /* XCRemoteSwiftPackageReference "FeedKit" */;
+			productName = FeedKit;
+		};
+		34413F5223ED1FF800C26AF3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34413F5123ED1FF800C26AF3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34706C0223DB9448004B66F3 /* Project object */;
 }
